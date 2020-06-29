@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="QM Tests" parallel="classes" thread-count="2">
+        <classes>
+            <class name="IntChallenge.TestSuite01">
+                <methods>
+                    <include name="testCase_01"/>
+                    <include name="testCase_02"/>
+                    <include name="testCase_03"/>
+                </methods>
+            </class>
+            <class name="IntChallenge.TestSuite01">
+                <methods>
+                    <include name="testCase_01"/>
+                    <include name="testCase_02"/>
+                    <include name="testCase_03"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
